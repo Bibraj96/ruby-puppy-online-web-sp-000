@@ -2,7 +2,7 @@ class Dog
   attr_accessor :name
   @@all = []
 
-  def initialize
+  def initialize(naem)
     @name = name
     @@all << self
   end
@@ -16,4 +16,6 @@ class Dog
       puts dog_name
     end
   end
+
+
 end
